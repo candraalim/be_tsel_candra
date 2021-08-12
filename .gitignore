@@ -1,0 +1,6 @@
+# Created by .ignore support plugin (hsz.mobi)
+logs
+.idea
+referral_service
+.env
+coverage.cov

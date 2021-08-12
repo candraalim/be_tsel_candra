@@ -1,0 +1,21 @@
+{
+  "server": {
+    "name": "be_tsel_candra",
+    "version": "1.0.0",
+    "port": 8800
+  },
+  "database": {
+    "username": "merchant",
+    "password": "merchant",
+    "name": "ticket_service",
+    "schema": "referral",
+    "host": "db-postgresql.linkaja.dev",
+    "port": 5432,
+    "maxIdleConn": 5,
+    "maxOpenConn": 10
+  },
+  "auth": {
+    "username": "test",
+    "password": "test123"
+  }
+}
