@@ -5,11 +5,11 @@
     "port": 8800
   },
   "database": {
-    "username": "merchant",
-    "password": "merchant",
-    "name": "ticket_service",
+    "username": "referral",
+    "password": "referral",
+    "name": "referral_service",
     "schema": "referral",
-    "host": "db-postgresql.linkaja.dev",
+    "host": "postgres",
     "port": 5432,
     "maxIdleConn": 5,
     "maxOpenConn": 10
