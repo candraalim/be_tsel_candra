@@ -26,12 +26,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8800/1.0/referral/6280000011/code",
+					"raw": "http://localhost:8080/1.0/referral/6280000011/code",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8800",
+					"port": "8080",
 					"path": [
 						"1.0",
 						"referral",
@@ -72,12 +72,12 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8800/1.0/referral",
+					"raw": "http://localhost:8080/1.0/referral",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8800",
+					"port": "8080",
 					"path": [
 						"1.0",
 						"referral"
@@ -107,12 +107,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8800/1.0/referral/6280000011",
+					"raw": "http://localhost:8080/1.0/referral/6280000011",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8800",
+					"port": "8080",
 					"path": [
 						"1.0",
 						"referral",
@@ -143,12 +143,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8800/1.0/referral/6280000011/reward",
+					"raw": "http://localhost:8080/1.0/referral/6280000011/reward",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "8800",
+					"port": "8080",
 					"path": [
 						"1.0",
 						"referral",

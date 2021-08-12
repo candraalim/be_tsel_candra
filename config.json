@@ -2,7 +2,7 @@
   "server": {
     "name": "be_tsel_candra",
     "version": "1.0.0",
-    "port": 8800
+    "port": 8080
   },
   "database": {
     "username": "referral",

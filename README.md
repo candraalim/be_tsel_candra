@@ -58,7 +58,7 @@ Use Header `Authorization: Basic dGVzdDp0ZXN0MTIz` based on configuration `auth`
 
 **Get Referral Code**
 ```
-curl -L -X GET 'http://localhost:8800/1.0/referral/6280000011/code' \
+curl -L -X GET 'http://localhost:8080/1.0/referral/6280000011/code' \
 -H 'Authorization: Basic dGVzdDp0ZXN0MTIz'
 
 Response:
@@ -73,7 +73,7 @@ Response:
 
 **Process Referral**
 ```
-curl -L -X POST 'http://localhost:8800/1.0/referral' \
+curl -L -X POST 'http://localhost:8080/1.0/referral' \
 -H 'Authorization: Basic dGVzdDp0ZXN0MTIz' \
 -H 'Content-Type: application/json' \
 --data-raw '{
@@ -90,7 +90,7 @@ Response:
 
 **Get List Referral**
 ```
-curl -L -X GET 'http://localhost:8800/1.0/referral/6280000011' \
+curl -L -X GET 'http://localhost:8080/1.0/referral/6280000011' \
 -H 'Authorization: Basic dGVzdDp0ZXN0MTIz'
 
 Response:
@@ -120,7 +120,7 @@ Response:
 
 **Get Referral Reward**
 ```
-curl -L -X GET 'http://localhost:8800/1.0/referral/6280000011/reward' \
+curl -L -X GET 'http://localhost:8080/1.0/referral/6280000011/reward' \
 -H 'Authorization: Basic dGVzdDp0ZXN0MTIz'
 
 Response:

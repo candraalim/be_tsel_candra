@@ -1,11 +1,13 @@
 version: '3'
 services:
   api:
-    container_name: referral_service
-    build: .
+    container_name: referral
+    build:
+      context: .
+      dockerfile: Dockerfile
     restart: on-failure
     ports:
-      - 8800:8800
+      - 8080:8080
     volumes:
       - api:/usr/src/app/
     depends_on:
