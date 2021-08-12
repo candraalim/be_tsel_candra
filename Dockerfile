@@ -22,16 +22,13 @@ CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -installsuffix cgo -ldflags="-
 
 FROM scratch
 
-WORKDIR /root/
-
 COPY --from=builder /app/referral_service/config.json .
-COPY --from=builder /app/referral_service/referral_service .
+COPY --from=builder /app/referral_service/cmd/app/referral_service .
 COPY --from=builder /etc/localtime /etc/localtime
 COPY --from=builder /etc/timezone /etc/timezone
 COPY --from=builder /usr/share/zoneinfo /usr/share/zoneinfo
 
-
 EXPOSE 8800
 
-CMD ["./referral_service"]
+CMD ["/referral_service"]
 
